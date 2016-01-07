@@ -5,6 +5,7 @@ Stores functions for fetching documents from the web.
 import urllib.request
 import tempfile
 from subprocess import Popen, PIPE
+
 from docx import Document
 from bs4 import BeautifulSoup
 
